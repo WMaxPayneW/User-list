@@ -22,7 +22,7 @@ class AddUser extends React.Component {
                 <button type='button' onClick={() => { 
                     this.myForm.reset()
                     this.userAdd = {
-                        firs_tname: this.state.first_name,
+                        first_name: this.state.first_name,
                         last_name: this.state.last_name,
                         email: this.state.email,
                         avatar: this.state.avatar,
